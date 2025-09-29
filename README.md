@@ -2,15 +2,16 @@
 
 ### Project Description:
 
-This project explores the use of machine learning to predict short term stock movements and evaluate whether a model based approach can outperform the s&p 500. Because financial markets is very noisy especially in the short term time frame, our goal is to test whether or not incorporating technical signals and calendar effects can improve next-day prediction. By including these features we can evaluate the usefulness of predictive pattern in financial data.
+This project explores the use of machine learning to predict short term stock movements and evaluate whether a model based approach can identify predictive patterns beyond random chance. Because financial markets is very noisy especially in the short term time frame, our goal is to test whether or not incorporating technical signals and calendar effects can improve next-day prediction. By including these features we can evaluate the usefulness of predictive pattern in financial data.
 
-The initial analysis will start off with a subset of 10 companies from the fortune 500 list. This set will be later expanded to include additional stocks for greater diversity (i.e cover all different business sectors). We plan to use supervised learning methods (i.e classifications and regression) to predict whether a stock will move up or down on the next day and make buy and sell decisions based on the prediction. 
+The initial analysis will start off with a subset of 10 companies from the fortune 500 list. This set will be later expanded to include additional stocks for greater diversity (i.e cover all different business sectors). We plan to use supervised learning methods (i.e classifications and regression) to evaluate predictive accuracy as well as risk-adjusted returns (i.e Sharpe ratio, max drawdown)
 
 ## Goal:
 
-- Develop a predictive trading model that can achieve higher total returns compared to the S&P 500.
-- Successfully be able to predict whether or not a stock will increase or decrease for the next day
-- Identify which technical patterns are most predictive of short-term price movements
+- Evaluate whether machine learning models can identify predictive patterns in short-term stock movements beyond random chance.
+- Identify which technical indicators and calendar effects are most predictive of short-term price movements
+- Test whether incorporating technical indicators and calendar effects improves next-day prediction accuracy.
+- Test model performance using both predictive accuracy and risk-adjusted return metrics
 
 ## Required Data
 
@@ -27,6 +28,11 @@ The initial analysis will start off with a subset of 10 companies from the fortu
 - Calendar effects
     - Day of week
     - Month of year / Seasons
+- Technical indicators
+    - Moving averages
+    - Relative Strength Index
+    - Volatility measures
+    - Momentum indicators
 
 ## Data modeling
 
