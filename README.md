@@ -4,7 +4,7 @@
 
 This project explores the use of machine learning to predict short term stock movements and evaluate whether a model based approach can identify predictive patterns beyond random chance. Because financial markets is very noisy especially in the short term time frame, our goal is to test whether or not incorporating technical signals and calendar effects can improve next-day prediction. By including these features we can evaluate the usefulness of predictive pattern in financial data.
 
-The initial analysis will start off with a subset of 10 companies from the fortune 500 list. This set will be later expanded to include additional stocks for greater diversity (i.e cover all different business sectors). We plan to use supervised learning methods (i.e classifications and regression) to evaluate predictive accuracy as well as risk-adjusted returns (i.e Sharpe ratio, max drawdown)
+The initial analysis will start off with a subset of 10 companies from the fortune 500 list with each stock covering a different sector. This set will be later expanded to include additional stocks for greater diversity (i.e cover all different business sectors). We plan to use supervised learning methods (i.e classifications and regression) to evaluate predictive accuracy as well as risk-adjusted returns (i.e Sharpe ratio, max drawdown) The goal is to predict next-day stock returns using  OHLCV data, technical indicators, and calendar effects.
 
 ## Goal:
 
@@ -58,9 +58,11 @@ The initial analysis will start off with a subset of 10 companies from the fortu
     - Each day, select top-3 predicted “up” stocks and buy them
     - Sell top 3 stocks that are predicted to go down
 - Train on historical data
+    - train on data from 1980-2019
 - Benchmarks
     - Compare to buy-and-hold SPY
 - Backtest
     - Testing using more recent years (2020-2026)
     - Include transaction cost
+        - .01-.05%
     - Only allowed to see past data when testing and not current
