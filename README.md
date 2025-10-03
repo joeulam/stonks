@@ -59,10 +59,13 @@ The initial analysis will start off with a subset of 10 companies from the fortu
     - Sell top 3 stocks that are predicted to go down
 - Train on historical data
     - train on data from 1980-2019
+- Validation
+    - expanding window CV for data validation and to help mitigate overfitting
 - Benchmarks
     - Compare to buy-and-hold SPY
 - Backtest
     - Testing using more recent years (2020-2026)
     - Include transaction cost
         - .01-.05%
+            - Allows for ensuring that the trades are actually profitable
     - Only allowed to see past data when testing and not current
