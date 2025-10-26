@@ -167,6 +167,8 @@ The **Max Drawdown** of -77.07% is substantial, indicating a severe peak-to-trou
 
 The **classification metrics** provide insight into the model's ability to predict the direction of next-day stock movements. An **Accuracy** of 0.514 is only slightly better than random chance (0.50), suggesting the model struggles to correctly predict whether a stock will go up or down. The **Precision** of 0.527 indicates that when the model predicts an upward move, it is only correct about 52.7% of the time. The **Recall** of 0.685 suggests the model is able to capture about 68.5% of the actual upward moves. These classification scores are relatively low and highlight the model's limited predictive power, which directly impacts the performance of the trading strategy that relies on these predictions.
 
+![alt text](plot.png "Title")
+
 **Conclusion on Promising Results:**
 
 Based on the analyzed metrics and the equity curve, the preliminary backtest results are **not promising** for a real-world trading strategy in their current state. The negative Sharpe Ratio, large maximum drawdown, and significant underperformance relative to the benchmark all indicate a lack of profitability and high risk during the backtest period. The modest classification metrics suggest that the underlying model's predictive capability is weak, which is likely a primary driver of the poor trading performance. Further feature engineering, model tuning, or exploring alternative modeling approaches would be necessary to potentially develop a profitable and robust trading strategy.
