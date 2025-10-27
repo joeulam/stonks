@@ -1,5 +1,6 @@
 # Project title: Stonks
 
+YT Link: https://youtu.be/N7N8UK-6IoY
 ## Data modeling
 
 **Equity Curve: Model vs SPY Buy&Hold**
