@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+seaborn
+yfinance
+scikit-learn
+xgboost
+optuna
+papermill
+nbformat
+nbconvert
+pytest
